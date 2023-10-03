@@ -1,17 +1,76 @@
 /* styles.css */
 
+* {
+    font-family: Jost;
+}
+
 /* Estilo del encabezado */
 header {
-    background-color: #a660a8;
+    background-color: #333333;
     color: white;
     text-align: center;
     padding: 40px;
+}
+
+.header-content {
+    align-items: center;
+    justify-content: space-between; /* Alinea las secciones a lo largo del encabezado */
+}
+
+.table_header table {
+    width: 100%;
+}
+
+.right-section {
+    width: 25%;
+}
+
+.right-section img {
+    max-width: 120px; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto;
+    margin: 10px ;
+}
+
+.middle-section {
+    width: 50%;
+}
+
+/* Estilo para el título y descripción */
+.middle-section h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Estilo de las imágenes */
+.left-section img {
+    text-align: center;
+    padding: 10px; /* Espaciado adicional alrededor de la imagen */
+    border: 2px solid #f0f0f0;
+    max-width: 150px; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto;
+    border-radius: 3%;
+}
+
+.redes img {
+    max-width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Estilo para las imágenes */
+img {
+    height: auto;
+    border-radius: 10%; /* Esto redondeará las esquinas de las imágenes de perfil */
 }
 
 /* Estilo de los títulos de sección */
 h2 {
     font-size: 24px;
     margin-top: 20px;
+}
+
+.subtitle {
+    color: #e7e5e5;
 }
 
 /* Estilo de los enlaces */
@@ -36,18 +95,28 @@ body {
 
 /* Estilo de la sección de proyectos (puedes personalizar esto) */
 #proyectos {
-    background-color: #f8f8f8;
+    background-color: #f0f0f0;
     padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
 }
 
 /* Estilo de la sección de experiencia (puedes personalizar esto) */
 #experiencia {
     background-color: #f0f0f0;
     padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1px;
 }
 
-/* Estilo de la sección de contacto (puedes personalizar esto) */
-#contacto {
+.contenido {
     background-color: #ffffff;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.titulo {
+    padding-left: 20px;
 }
