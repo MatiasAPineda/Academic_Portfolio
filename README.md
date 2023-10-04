@@ -6,4 +6,4 @@
 * Correo Personal: matiasa.pineda@gmail.com
 * Correo Institucional: matias.pineda@uc.cl
 
-**Link:**  
+**Link:**  https://matiasapineda.github.io/Academic_Portfolio/ 
