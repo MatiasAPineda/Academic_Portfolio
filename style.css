@@ -6,7 +6,7 @@
 
 /* Estilo del encabezado */
 header {
-    background-color: #333333;
+    background-color: #4c3653;
     color: white;
     text-align: center;
     padding: 40px;
@@ -88,7 +88,6 @@ footer {
 
 /* Estilo general del cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
