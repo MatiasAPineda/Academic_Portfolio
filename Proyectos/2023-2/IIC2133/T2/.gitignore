@@ -1,0 +1,16 @@
+*.txt
+*.png
+obj/
+.vscode
+.DS_Store
+*.Zone.Identifier
+
+
+/squads
+
+/worldGen
+
+main2.c
+wg/
+/sq
+/T2_2023_2_Enuncuado.pdf

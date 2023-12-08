@@ -1,0 +1,5 @@
+obj/
+*.txt
+docs/T0
+output_mio.txt
+.vscode
